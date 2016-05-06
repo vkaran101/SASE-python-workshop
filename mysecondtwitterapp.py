@@ -45,14 +45,14 @@ Stream = tweepy.Stream(auth, myStreamListener)
 Stream.filter(track=['Tinder'])
 
 
-# print user.screen_name
-# print user.followers_count
-# for friend in user.friends():
-# 	print friend.screen_name
+print user.screen_name
+print user.followers_count
+for friend in user.friends():
+	print friend.screen_name
 
-# iterations = input("How many tweets would you like to write " )
-# while iterations > 0:
-# 	tweet()
-# 	iterations = iterations - 1
+iterations = input("How many tweets would you like to write " )
+while iterations > 0:
+ 	tweet()
+ 	iterations = iterations - 1
 
-# print_tweets()
+print_tweets()
